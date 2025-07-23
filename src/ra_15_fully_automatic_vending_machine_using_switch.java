@@ -36,7 +36,7 @@ public class ra_15_fully_automatic_vending_machine_using_switch {
         else {
             System.out.println("Invalid input!");
         }
-
+        sc.close();
     }
     public static String getItem(String[] items, int index){
         if(index >= 1 && index <= items.length){
