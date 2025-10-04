@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ra_remaining_candies_in_jar{
+public class ra_7_remaining_candies_in_jar {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
 
