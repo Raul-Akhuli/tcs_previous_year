@@ -20,7 +20,7 @@ public class ra_27_non_repeating_number {
 
         System.out.println("enter the elements (space separated): ");
         for(int i = 0; i < n; i++){
-            char ch = sc.next().charAt(0);
+            char ch = sc.next().charAt(0);                       // if you think to go for charAt(i) leads to IndexOutOfBoundException.
             freq.put(ch, freq.getOrDefault(ch, 0) + 1);
         }
 
